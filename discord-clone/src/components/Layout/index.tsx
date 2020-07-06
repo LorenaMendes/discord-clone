@@ -6,24 +6,22 @@ import { Grid } from './styles';
 import ServerList from '../ServerList';
 
 // SN - Server Name
+import ServerName from '../ServerName';
+
 // CI - Chanel Info
+import ChannelInfo from '../ChannelInfo';
 // CL - Chanel List
 // CD - Chanel Data
 // UL - User List
 // UI - User Info
 
-// Código em Javascript
-// export default function(){
-//     return (
-//         <div>Oi, mundo!</div>
-//     );
-// }
         
 // Código equivalente em Typescript
 const Layout: React.FC = () => {
     return (
         <Grid>
             <ServerList />
+            <ServerName />
         </Grid>
     );
 }
