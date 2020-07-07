@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {ExpandMore} from 'styled-icons/material';
+import { Hashtag } from 'styled-icons/heroicons-outline';
 
 export const Container = styled.div`
     grid-area: CI;
@@ -14,7 +14,7 @@ export const Container = styled.div`
     z-index: 2; 
 `;
 
-export const HashtagIcon = styled.div`
+export const HashtagIcon = styled(Hashtag)`
     width: 24px;
     height: 24px;
 
@@ -40,7 +40,7 @@ export const Separator = styled.div`
     margin: 0 13px;
 `;
 
-export const Description = styled.div`
+export const Description = styled.span`
     font-size: 15px;
-    color: var(--grey);
+    color: var(--gray);
 `;
